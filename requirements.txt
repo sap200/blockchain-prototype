@@ -1,0 +1,8 @@
+The 3rd part tools required for the development are listed below: 
+
+a) go get github.com/google/uuid            : For UUID
+b) github.com/tidwall/pretty                : For pretty printing
+c) github.com/libp2p/go-libp2p              : For p2p communication
+
+Type this to use go libp2p
+go env -w CGO_ENABLED=0 
